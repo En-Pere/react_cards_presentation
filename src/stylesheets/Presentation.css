@@ -1,0 +1,55 @@
+.card_container {
+  width: 90vw;
+  height: 350px;
+  margin: 10px 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 3px 20px 0;
+  border-radius: 15px;
+  background-color: rgb(232, 231, 231);
+}
+
+@media only screen and (max-width: 800px) {
+  .card_container {
+    flex-wrap: wrap;
+    height: auto;
+  }
+}
+
+.presentation_image {
+  height: 100%;
+  min-width: auto;
+  border-radius: 15px 0 0 15px;
+}
+
+@media only screen and (max-width: 800px) {
+  .presentation_image {
+    max-height: 20rem;
+    margin: 10px 10px;
+    border-radius: 15px;
+  }
+}
+
+.presentation_container {
+  margin: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  .presentation_container {
+    margin: 15px 20px;
+  }
+}
+
+.presentation_name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+.presentation_position {
+  font-size: 1.1rem;
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
