@@ -4,6 +4,7 @@ h1 {
 
 body {
   background-color: rgb(232, 232, 232);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .card_container {
@@ -60,8 +61,8 @@ body {
 }
 
 .presentation_position {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-style: italic;
-  font-weight: 500;
-  margin-bottom: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
 }
