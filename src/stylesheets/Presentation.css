@@ -1,3 +1,11 @@
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(232, 232, 232);
+}
+
 .card_container {
   width: 90vw;
   height: 350px;
@@ -5,9 +13,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 3px 20px 0;
+  box-shadow: 0 2px 5px 0;
   border-radius: 15px;
   background-color: rgb(232, 231, 231);
+}
+
+.card_container:hover {
+  box-shadow: 0 3px 20px 0;
 }
 
 @media only screen and (max-width: 800px) {
